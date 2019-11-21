@@ -1,8 +1,8 @@
-package _gomonkey_test
+package _monkey_test
 
 import (
 	"bou.ke/monkey"
-	_gomonkey "github.com/morvanzhou/unittest-demo/7gomonkey"
+	_gomonkey "github.com/morvanzhou/unittest-demo/7monkey"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

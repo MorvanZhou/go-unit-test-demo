@@ -1,4 +1,4 @@
-package _gomonkey
+package _monkey
 
 import (
 	"strconv"

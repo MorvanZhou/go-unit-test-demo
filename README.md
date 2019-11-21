@@ -37,7 +37,7 @@
 如果有调用正在开发中的其他微服务, 或者想摆脱其他微服务的依赖, 模拟其他微服务 API 的返回信息, 不用等待真实的微服务.
 
 ## mock 模拟内部函数返回
-[7gomonkey](/7gomonkey/foo_test.go)
+[7monkey](/7monkey/foo_test.go)
 
 `go get github.com/bouk/monkey`
 
