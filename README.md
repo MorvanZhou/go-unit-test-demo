@@ -41,6 +41,6 @@
 
 `go get github.com/bouk/monkey`
 
-有些数据库操作不太好测试, 我们可以用gomonkey模拟数据库的返回, 然后接着做主函数的使用.
+有些数据库操作不太好测试, 我们可以用 monkey 模拟数据库操作的 func 的返回 (其他func也能mock), 然后接着做主函数的测试.
 
 **注意** 有些 test 需要配置才能正常使用monkey, 比如需要 `go test -gcflags=all=-l -v xxx_test.go` 或者在 IDE 的 test configuration 中配置 `Go tool arguments = -gcflags=all=-l`
