@@ -23,3 +23,7 @@
 ## mock API 请求
 [6api](/6apimock/api_test.go)
 如果有调用正在开发中的其他微服务, 或者想摆脱其他微服务的依赖, 模拟其他微服务 API 的返回信息, 不用等待真实的微服务.
+
+## mock 模拟内部函数返回
+[7gomonkey](/7gomonkey/foo_test.go)
+有些数据库操作不太好测试, 我们可以用gomonkey模拟数据库的返回, 然后接着做主函数的使用.
